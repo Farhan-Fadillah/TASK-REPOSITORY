@@ -17,6 +17,8 @@ Kenapa penting?
 - Mencegah error saat program berjalan karena input yang tidak sesuai (misalnya huruf, angka di luar rentang).
 - Memudahkan pengguna dengan memberikan pesan kesalahan yang jelas dan meminta input ulang hanya pada bagian yang salah.
 
+![func](https://github.com/Farhan-Fadillah/picture_list/blob/2d82139cc2b044d7f844862714b1e7c8edd628de/function%20val%20input%20cal%20date.png)
+
 Cara kerja:
 - Ada tiga loop terpisah untuk tanggal, bulan, dan tahun.
 - Setiap input dicek apakah sesuai dengan batasan (tanggal 1-31, bulan 1-12, tahun positif).
@@ -36,6 +38,8 @@ Kenapa penting?
 - Informasi ini penting untuk validasi tanggal (misalnya, Februari bisa 28 atau 29 hari).
 - Memberikan informasi tambahan kepada pengguna tentang tahun yang dimasukkan dan tahun-tahun di sekitarnya.
 
+![kabisat](https://github.com/Farhan-Fadillah/picture_list/blob/2d82139cc2b044d7f844862714b1e7c8edd628de/cek%20kabisat.png)
+
 Cara kerja:
 - Program mengecek 5 tahun, dari 2 tahun sebelum sampai 2 tahun setelah tahun input.
 - Untuk setiap tahun, dicek apakah memenuhi aturan kabisat.
@@ -52,6 +56,8 @@ Apa itu Zeller’s Congruence?
 Kenapa penting?
 - Memberikan informasi hari yang tepat untuk tanggal yang dimasukkan.
 - Berguna untuk aplikasi kalender, penjadwalan, dan validasi tanggal.
+
+![zeller](https://github.com/Farhan-Fadillah/picture_list/blob/2d82139cc2b044d7f844862714b1e7c8edd628de/zeller%20conguerence.png)
 
 Penyesuaian bulan dan tahun:
 - Januari dan Februari dianggap sebagai bulan ke-13 dan ke-14 tahun sebelumnya untuk memudahkan perhitungan.
@@ -70,6 +76,8 @@ Tujuan: Mengubah hasil perhitungan h menjadi nama hari yang mudah dimengerti.
 Kenapa penting?
 - Agar hasil perhitungan dapat dipahami oleh pengguna.
 - Memberikan output yang informatif dan user-friendly.
+
+![day](https://github.com/Farhan-Fadillah/picture_list/blob/2d82139cc2b044d7f844862714b1e7c8edd628de/showday.png)
 
 Cara kerja:
 - Menggunakan struktur if-elif-else untuk mencocokkan nilai h dengan nama hari.
